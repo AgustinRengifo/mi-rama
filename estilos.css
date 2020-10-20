@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.rengi1 {
+    width: 100px;
+    height: 100px;
+}
+
+.rengi1:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease 0.5s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+}
+
+.A {
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.A:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: wheat;
+}
+
+.A:active {
+    border: 2px solid red;
+}
+
+.header-container {
+    color: #fcfcfc;
+    background-color: #ce6666;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.buscador {
+    color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Alquiler {
+    background-color: red;
+
+}
+
+.Propiedades {
+    background-color: rgb(175, 4, 4);
+}
+
+.Lotes {
+    background-color: rgb(114, 1, 1);
+}
+
+.Campos {
+    background-color: rgb(83, 0, 0);
+}
+
+
+.facebook {
+    width: 50px;
+}
+
+.facebook:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease 0.5s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+}
+
+
+.instagram {
+    width: 50px;
+}
+
+.instagram:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease 0.5s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+}
+
+
+.twitter {
+    width: 50px;
+}
+
+.twitter:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease 0.5s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+}
+
+
+.whatsapp {
+    width: 50px;
+}
+
+.whatsapp:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease 0.5s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+}
+
+
+
+#contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgb(58, 57, 57), rgb(49, 49, 37));
+    color: white;
+}
+
+/* pestaña alquiler */
+
+.alk {
+    display: flex;
+    justify-content: center;
+    background: #973535;
+
+}
+
+
+
+/* Footer nuevo */
+
+footer {
+    width: 100%;
+    background: #202020;
+    color: white;
+
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 400px;
+}
+
+.colum1 h1 {
+    font-size: 22px;
+
+}
+
+.colum1 p {
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+
+.colum2 {
+    max-width: 400px;
+}
+
+.colum2 h1 {
+    font-size: 22px;
+
+}
+
+.colum2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #c7c7c7;
+}
+
+.colum3 {
+    max-width: 400px;
+}
+
+.colum3 h1 {
+    font-size: 22px;
+}
+
+.row2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+
+/* containter footer */
+
+.container-footer {
+    width: 100%;
+    background: #101010;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.copyright {
+    color: #c7c7c7;
+}
+
+.information {
+    color: #c7c7c7;
+}
+
+.parrafo {
+    color: black;
+    
+}
+
+
+/* Mobile Styles
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #e09698;
+    }
+
+}
+
+/* Tablet Styles */
+/* 
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: red;
+    }
+
+    .Alquiler,
+    .Propiedades,
+    .Lotes,
+    .Campos {
+        width: 50%;
+    }
+} */
+
+
+/* Desktop Styles */
+
+/* @media only screen and (min-width: 961px) {
+
+
+
+    .red {
+        width: 960px;
+        margin: auto;
+    }
+
+    .menu-container {
+        height: 150px;
+    }
+
+    .header-container {
+        height: 200px;
+    }
+
+
+
+}  */
+
+
+@media screen and (max-width: 1200px) {
+
+ 
+    .container-body {
+        flex-wrap: wrap;
+    }
+
+    .colum1 p {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .colum2,
+    .colum3 {
+        margin-top: 40px;
+    }
+}
